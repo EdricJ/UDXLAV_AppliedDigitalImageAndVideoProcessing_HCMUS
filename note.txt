@@ -1,0 +1,13 @@
+Trong ví dụ này, chúng ta sử dụng hàm cv2.threshold() để chuyển đổi ảnh sang dạng nhị phân với ngưỡng 127. Tham số cv2.THRESH_BINARY được sử dụng để chỉ định chế độ chuyển đổi nhị phân. Nếu giá trị của một điểm ảnh trong ảnh gốc lớn hơn ngưỡng 127, thì giá trị của nó trong ảnh nhị phân sẽ là 255, ngược lại sẽ là 0.
+
+Để đọc ảnh nhị phân với OpenCV, bạn có thể sử dụng hàm cv2.imread() để đọc ảnh và sử dụng tham số cv2.IMREAD_GRAYSCALE để chỉ đọc ảnh đen trắng. Sau đó, bạn có thể sử dụng hàm cv2.threshold() để chuyển đổi ảnh sang dạng nhị phân.
+
+Toán tử Convex Hull là một phương pháp để tìm ra lồi nhất của một tập hợp các điểm trong không gian hai chiều. Ví dụ, nếu bạn có một tập hợp các điểm trên một bức ảnh và muốn tìm đường viền của các điểm này, toán tử Convex Hull có thể được sử dụng để tìm ra lồi nhất của tập hợp các điểm này
+
+Toán tử Extraction of Connected Components (hay còn gọi là toán tử liên thông) là một phương pháp để phân đoạn ảnh bằng cách tìm các đối tượng kết nối trong ảnh.
+
+Toán tử Hole Filling (hay còn gọi là toán tử điền lỗ) là một phương pháp xử lý hình ảnh để điền vào các lỗ trống trong đối tượng trong ảnh. Các lỗ trống này có thể được tạo ra trong quá trình xử lý ảnh hoặc do những yếu tố khác như nhiễu, vật thể bị che khuất, ...
+
+Chú ý rằng việc điền lỗ có thể làm thay đổi kích thước và hình dạng của đối tượng ban đầu, đặc biệt là khi lỗ trống lớn hơn kích thước trung bình của đối tượng. Do đó, việc điền lỗ nên được thực hiện cẩn thận và có sự kiểm soát của người dùng để đảm bảo kết quả phù hợp với yêu cầu của ứng dụng.
+
+Toán tử Boundary Extraction (hay còn gọi là toán tử tìm biên) là một phương pháp xử lý hình ảnh để tìm ra các biên của đối tượng trong ảnh. Biên là ranh giới giữa các đối tượng trong ảnh và nền. Toán tử này thường được sử dụng để xác định hình dạng và kích thước của đối tượng, phân tích và phát hiện đối tượng trong hình ảnh.
